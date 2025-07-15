@@ -1,4 +1,4 @@
-### SIMPLE JAVA WEB SERVER
+## SIMPLE JAVA WEB SERVER
 This project implements a client-server application using Java's socket programming, featuring three implementations: single-threaded, multi-threaded, and thread-pooled. The repository includes server and client code for each approach, demonstrating different strategies for handling client connections. Additionally, JMeter was used to perform load testing to evaluate the performance and capacity of all implementations under varying loads.
 ## Features
 -Single-threaded Implementation: Handles one client connection at a time, suitable for simple testing or low-load scenarios.
