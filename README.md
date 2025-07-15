@@ -17,6 +17,8 @@ This project implements a client-server application using Java's socket programm
 git clone https://github.com/r-ishabh12/WebServer.git
 ```
 For Single-Threaded Version
+# Screenshot
+![Single Threaded Request Table screenshot](SingleThreaded.png)
 2.** Navigate to the single Threaded directory**
 ```bash
 cd SingleTHreaded
@@ -31,9 +33,11 @@ javac Client.java
 java Server
 java Client
 ```
-## Screenshot
+
 
 For Multi-Threaded Version
+# Screenshot
+![Multi Threaded request Table screenshot](MultiThreaded.png)
 2.** Navigate to the Multi Threaded directory**
 ```bash
 cd MultiThreaded/src
@@ -49,6 +53,8 @@ java Server
 java Client
 ```
 For Thread Pool
+# Screenshot
+![Thread Pool request graph screenshot](Threadpool.png)
 2.** Navigate to the Thread Pool directory**
 ```bash
 cd ThreadPool/src
@@ -63,5 +69,9 @@ javac Client.java
 java Server
 java Client
 ```
+-----
+# Load Testing with JMeter
+1.Download JMeter
+2.Configure Test Plan
 
 
